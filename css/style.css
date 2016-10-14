@@ -1,0 +1,50 @@
+header, section, footer, aside, nav, article,
+figure, audio, video, canvas {
+  display: block;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 25px;
+}
+
+section {
+  padding: 25px;
+}
+
+input {
+  clear: left;
+  display: block;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+form, p.result {
+  border: #adadad solid 1px;
+  padding: 25px;
+}
+
+div.error, span.error {
+
+  color: red;
+
+}
+
+span.error {
+  font-weight: bold;
+}
+
+span.success {
+  color: green;
+  font-weight: bold;
+}
+
+input.error {
+  border: red solid 1px;
+}
+
+ul.result_messages {
+  border: red solid 1px;
+  background: #ffb2a8;
+  padding: 25px;
+}
